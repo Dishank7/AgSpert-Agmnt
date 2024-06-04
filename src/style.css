@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.btn-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-btn-div{
+  padding: 0px 20px;
+  display: flex;
+  gap: 20px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+.customer-order-div{
+  padding: 40px;
+}
+
+.customer-order-div table{
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.customer-order-div table,th,td{
+  background: azure;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.dropdown-wrapper{
+  display: flex;
+    justify-content: center;
+}
+
+.sale-order-wrapper{
+  padding: 20px;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: azure;
+}
+
+.sale-order-detail-div{
+  padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #a3a1a14f;
+}
+
+.input-div{
+  display: flex;
+  padding: 20px 5px;
+  justify-content: space-between;
+}
+
+label{
+  font-size:x-large
+}
+
+input{
+  outline: none;
+  border: 0.5px solid rgb(205, 205, 205);
+  padding: 10px;
+}
+
+.floating-span{
+  position: absolute;
+    /* top: 0; */
+    bottom: 20px;
+    right: 0;
+    background: #2cc82c82;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: x-small;
+}
+
+.main-customer-div{
+  position: relative;
+}
